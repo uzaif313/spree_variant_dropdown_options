@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_variant_dropdown_options'
   s.version     = '3.0.4'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds dropdowns for variant options so it sucks less.'
+  s.description = 'See above.  Why I need two of these is WAY beyond me.'
   s.required_ruby_version = '>= 2.0.0'
 
   s.author    = 'Don sullivant'

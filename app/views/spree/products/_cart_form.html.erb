@@ -15,7 +15,7 @@
     <% end %>
     <%= hidden_field_tag "products[#{@product.id}]", "", :id => "variant_id", :class => "hidden" %>
     <script type="text/javascript">
-    //<![CDATA[
+    //<![CDATA[  
       var variant_options = new Object({
         options: <%== @product.variant_options_hash.to_json -%>,
         track_inventory_levels: <%==  !!Spree::Config[:track_inventory_levels] -%>
